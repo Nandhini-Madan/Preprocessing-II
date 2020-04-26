@@ -1,9 +1,13 @@
 .home {
+ .text_content_1{
+     p{
 
+    border-bottom: 2px dashed @navigation-border;
+      }
+  }
   .content-section {
     margin: 30px 0;
-    display: flex;
-    flex-wrap: wrap;
+    .flex-row();
     justify-content: space-between;
 
    
@@ -57,5 +61,13 @@
       width: 30%;
       margin-bottom: 30px;
     }
+  }
+  .btn{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: @button-bg;
+    text-align: center;
+    font-size: 1.2rem;
+    color:@font-color;
   }
 }// home
