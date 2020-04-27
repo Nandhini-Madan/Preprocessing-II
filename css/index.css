@@ -172,8 +172,20 @@ header {
   display: flex;
   padding: 10px;
 }
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
 header h1 {
   margin-left: 25%;
+}
+@media (max-width: 500px) {
+  header h1 {
+    max-width: 500px;
+    text-align: center;
+  }
 }
 header .Nav_container {
   display: flex;
@@ -224,6 +236,7 @@ header a {
 }
 @media (max-width: 500px) {
   .home {
+    max-width: 500px;
     padding-left: 2%;
     padding-right: 2%;
   }
@@ -318,7 +331,7 @@ header a {
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
-    max-width: 100%;
+    max-width: 500px;
   }
 }
 .home .btn {
@@ -328,4 +341,9 @@ header a {
   text-align: center;
   font-size: 1.6rem;
   color: #212529;
+}
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
 }
