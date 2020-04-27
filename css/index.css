@@ -331,7 +331,7 @@ header a {
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
-    max-width: 500px;
+    width: 500px;
   }
 }
 .home .btn {
