@@ -1,29 +1,47 @@
 // Navigation Styles here
-.header_container{
-    .flex-row();
-    padding: 10px; 
+header{
+    display: flex;
+    padding: 10px;
+   h1{
+   
     margin-left: 25%;
+
+    
+    }
     
   
     .Nav_container{
         .flex-row();
-        justify-items: space-evenly;
         text-decoration: none;
-        margin-left: 30%;
+        margin-left: 20%;
+        @media (max-width: 500px){
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-evenly;
+            align-content: center;
+            margin-right: 50%; 
+        }
+            
+        }
         
 
         a{
             padding: 10px;
             text-decoration: none;
             color:@font-color;
-            font-size: 1.3rem;
+            font-size: 1.6rem;
+            @media (max-width: 500px){
+                display: flex;
+                flex-direction: row;
+                justify-items: center;
+               
+            }
 
         }
     } 
-}
 .nav_border{
     width: 100%;
-    border-bottom: 2px dashed @navigation-border;
+    border-bottom: 2px dashed @silver;
 }
-
 
