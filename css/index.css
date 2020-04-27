@@ -183,7 +183,7 @@ header h1 {
 }
 @media (max-width: 500px) {
   header h1 {
-    max-width: 500px;
+    margin-right: 25%;
     text-align: center;
   }
 }
@@ -197,10 +197,9 @@ header .Nav_container {
   header .Nav_container {
     display: flex;
     flex-direction: row;
-    justify-items: center;
-    justify-content: space-evenly;
+    margin-left: 5%;
+    justify-content: space-around;
     align-content: center;
-    margin-right: 50%;
   }
 }
 header a {
@@ -213,7 +212,8 @@ header a {
   header a {
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
   }
 }
 .nav_border {
@@ -237,8 +237,8 @@ header a {
 @media (max-width: 500px) {
   .home {
     max-width: 500px;
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }
 .home .top_content_section {
@@ -334,6 +334,16 @@ header a {
     width: 500px;
   }
 }
+@media (max-width: 500px) {
+  .home .content-pick .destination h4 {
+    padding-left: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination p {
+    padding-left: 5%;
+  }
+}
 .home .btn {
   padding: 20px 0px;
   border-radius: 12px;
@@ -341,6 +351,13 @@ header a {
   text-align: center;
   font-size: 1.6rem;
   color: #212529;
+}
+@media (max-width: 500px) {
+  .home .btn {
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 @media (max-width: 500px) {
   .container {
