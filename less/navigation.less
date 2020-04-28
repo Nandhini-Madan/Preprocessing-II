@@ -2,14 +2,13 @@
 header{
     display: flex;
     padding: 10px;
-    @media(max-width:500px){
+    @media @mobile{
         display: flex;
         flex-direction: column;
     }
    h1{
-   
     margin-left: 25%;
-    @media(max-width:500px)
+    @media @mobile
     {
       margin-right: 25%;
         text-align: center;
@@ -24,7 +23,7 @@ header{
         .flex-row();
         text-decoration: none;
         margin-left: 20%;
-        @media (max-width: 500px){
+        @media @mobile{
             display: flex;
             flex-direction: row;
             margin-left: 5%;
@@ -41,7 +40,7 @@ header{
             text-decoration: none;
             color:@font-color;
             font-size: 1.6rem;
-            @media (max-width: 500px){
+            @media @mobile{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-evenly;
