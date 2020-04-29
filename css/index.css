@@ -311,6 +311,13 @@ header a {
 .home .content-destination img {
   border-radius: 10px;
 }
+.home .content-destination img:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+}
 .home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
